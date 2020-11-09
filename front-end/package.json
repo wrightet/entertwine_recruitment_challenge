@@ -23,8 +23,8 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "start": "webpack-dev-server --open",
-    "server": "webpack --mode=development --watch"
+    
+    "start": "webpack --mode=development --watch"
   },
   "keywords": [],
   "author": "",
