@@ -30,6 +30,8 @@
   "author": "",
   "description": "",
   "dependencies": {
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "vue-cli": "^2.9.6",
+    "vue-router": "^3.4.9"
   }
 }
