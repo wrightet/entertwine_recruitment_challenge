@@ -24,7 +24,7 @@
   },
   "scripts": {
     
-    "start": "webpack --mode=development --watch"
+    "start": "webpack-dev-server --open"
   },
   "keywords": [],
   "author": "",
