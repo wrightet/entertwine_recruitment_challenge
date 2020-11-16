@@ -6,9 +6,10 @@
 
 <script>
 export default {
-    name:'helloworld',
+    name:'Helloworld',
     props: {
         message: String
-    }
+    },
+    template:'<Helloworld>'
 }
 </script>
