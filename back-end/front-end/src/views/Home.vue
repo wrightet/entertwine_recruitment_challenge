@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <Header/>
-    <Login v-on:login="login"/>
+    <LoginForm v-on:login="login"/>
     <SignUp/>
   </div>
 </template>
@@ -10,7 +10,7 @@
 // @ is an alias to /src
 
 import Header from '../components/layout/Header.vue';
-import Login from '../components/LoginForm.vue';
+import LoginForm from '../components/LoginForm.vue';
 import SignUp from '../components/Signup.vue';
 export default {
   name: 'Home',
