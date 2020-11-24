@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <Header/>
-    <LoginForm v-on:login="login"/>
+    <LoginForm v-on:login="loginAction"/>
     <SignUp/>
   </div>
 </template>
@@ -18,9 +18,7 @@ export default {
     Header, LoginForm, SignUp
   },
   methods: {
-    login(email, password){
-      
-    }
+  
   }
 }
 </script>

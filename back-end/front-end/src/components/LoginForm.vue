@@ -1,9 +1,9 @@
 <template>
     <div class='login'>
         <h3>Log In</h3>
-        <form @submit="login">
-            <input type="text" v-model="email" placeholder="Email">
-            <input type="text" v-model="password" placeholder="Password">
+        <form @submit="loginAction">
+            <input type="text" v-model='email' placeholder="Email">
+            <input type="text" v-model='password' placeholder="Password">
             <input type="submit" value='Sumbit' class='button'>
         </form>
     </div>
@@ -12,14 +12,14 @@
 <script>
 export default {
     name: 'LoginForm',
-    data(){
-        return{
-            email: '',
-            password: ''
-        }
-    },
+    // data(){
+    //     return{
+    //         // email: '',
+    //         // password: ''
+    //     }
+    // },
     methods: {
-        login(e){
+        loginAction(e){
             e.preventDefault();
             const payLoad = {email: this.email, password: this.password};
             this.$emit('login', payLoad);
