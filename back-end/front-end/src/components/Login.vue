@@ -19,4 +19,8 @@ export default {
         background: #EEE;
         padding: 2%;
     }
+    input{
+        height: 3vh;
+        margin-right: 1vw;
+    }
 </style>
