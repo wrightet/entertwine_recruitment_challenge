@@ -1,7 +1,7 @@
 <template>
     <div class='login'>
         <h3>Log In</h3>
-        <form action="">
+        <form>
             <input type="text" name='email' placeholder="Email">
             <input type="text" name='password' placeholder="Password">
         </form>
@@ -11,7 +11,7 @@
 <script>
 export default {
     name: 'Login'
-}
+};
 </script>
 
 <style scoped>

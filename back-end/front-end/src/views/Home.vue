@@ -2,6 +2,7 @@
   <div class="home">
     <Header/>
     <Login/>
+    <SignUp/>
   </div>
 </template>
 
@@ -10,10 +11,11 @@
 
 import Header from '../components/layout/Header.vue';
 import Login from '../components/Login.vue';
+import SignUp from '../components/Signup.vue';
 export default {
   name: 'Home',
   components: {
-    Header, Login
+    Header, Login, SignUp
   }
 }
 </script>
