@@ -2,7 +2,7 @@
     <div class='SignUp'>
         <h2>Don't have an account?</h2>
         <h3>Sign Up</h3>
-        <form class='sign-form' action="">
+        <form class='sign-form' @submit="createUser">
             <input type="text" name='first_name' placeholder="First Name">
             <input type="text" name='last_name' placeholder="Last Name">
             <input type="text" name='email' placeholder="Email">
@@ -14,7 +14,16 @@
 
 <script>
 export default {
-    name: 'SignUp'
+    name: 'SignUp',
+    data(){
+        return{
+            first_name:'',
+            last_name: '',
+            email: '',
+            phone_number:'',
+            password:''
+        }
+    }
 }
 </script>
 

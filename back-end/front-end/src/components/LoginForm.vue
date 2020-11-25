@@ -12,12 +12,12 @@
 <script>
 export default {
     name: 'LoginForm',
-    // data(){
-    //     return{
-    //         // email: '',
-    //         // password: ''
-    //     }
-    // },
+    data(){
+        return{
+            email: '',
+            password: ''
+        }
+    },
     methods: {
         loginAction(e){
             e.preventDefault();
@@ -34,6 +34,8 @@ export default {
     .login{
         background: #EEE;
         padding: 2%;
+        display: flex;
+        flex-direction: column;
     }
     input{
         height: 3vh;
